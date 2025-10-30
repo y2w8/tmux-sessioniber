@@ -1,0 +1,15 @@
+[package]
+name = "tmux-sessioniber"
+version = "0.1.0"
+description = " tmux session manager"
+authors = ["y2w8 <yousefalharby416@gmail.com>"]
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+dirs = "6.0.0"
+ratatui = "0.29.0"
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "0.9.8"
